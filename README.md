@@ -31,7 +31,17 @@ REACT_APP_GOOGLE_API_KEY=
 5. Go back to root directory and start the app by `npm run dev`.
 
 ## Stack: MERN :page_with_curl:
-> TO BE
-> ADDED
+The Folder Structure is the general MERN stack, having a `client folder` for the Frontend (ReactJS). The roots has the Server Components including DB Setup, Passport etc.
 
-## Thank You
+
+<img src="https://blog.hyperiondev.com/wp-content/uploads/2018/09/Blog-Article-MERN-Stack.jpg" />
+
+### The Authorization
+The Auth was implemented using PassPortJs, utilizing the JsonWebTokens. Every authorized user will have a `access_token` **cookie** in the browser, which acts as the source of auth throughout all routes.
+
+### The Map Section
+The Map was implemneted using `@react-google-maps/api`, which made all the necessary functionalities available. Includng Popups, markers etc.
+
+
+
+> Thank You 
